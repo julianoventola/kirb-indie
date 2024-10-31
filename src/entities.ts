@@ -155,6 +155,7 @@ export function setControls(k: KaboomCtx, player: PlayerGameObj) {
   k.onKeyPress((key) => {
     switch (key) {
       case "x":
+      case "up":
       case "w":
         player.doubleJump()
         break;
