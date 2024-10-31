@@ -65,7 +65,7 @@ async function gameSetup() {
     for (const bird of level1SpawnPoints.bird) {
       const possibleSpeeds = [100, 200, 300]
 
-      k.loop(10, () => {
+      k.loop(40, () => {
         const num = Math.round(Math.random() * (possibleSpeeds.length - 1))
         console.log(num);
 
